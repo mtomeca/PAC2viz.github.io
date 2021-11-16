@@ -1,4 +1,6 @@
-## Welcome to GitHub Pages
+## Visualització de dades
+
+A continuació es presenten les visualitzacions de la PAC 2 de l'assignatura de visualització de dades.
 
 You can use the [editor on GitHub](https://github.com/mtomeca/PAC2viz.github.io/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
 
