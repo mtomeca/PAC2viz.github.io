@@ -6,7 +6,7 @@ A continuació es presenten les visualitzacions de la PAC 2 de l'assignatura de 
 
 Representació feta amb QGIS, en la qual es representen els centres escolars de secundària al territori continental d’Estats Units (llevat d’Alaska).
 
-![EditQGIS](assets/images/Edició QGIS.PNG)
+![EditQGIS](assets/images/Foto QGIS.png)
 
 ```markdown
 Syntax highlighted code block
