@@ -4,34 +4,35 @@ A continuació es presenten les visualitzacions de la PAC 2 de l'assignatura de 
 
 ### Dot Density Map
 
-Representació feta amb QGIS, en la qual es representen els centres escolars de secundària al territori continental d’Estats Units (llevat d’Alaska).
+Representació feta amb QGIS, en la qual es representen els centres escolars de secundària al territori continental d’Estats Units (llevat d’Alaska). A continuació es mostra la seva edició amb QGIS.
 
 ![EditQGIS](assets/images/Edicio_QGIS.jpg)
 
-```markdown
-Syntax highlighted code block
+El resultat obtingut és el següent:
 
-# Header 1
-## Header 2
-### Header 3
+![FotoQGIS](assets/images/Foto_QGIS.jpg)
 
-- Bulleted
-- List
+### Icon Chart
 
-1. Numbered
-2. List
+A l'Icon Chart s’ha representat una enquesta i unes estadístiques sobre els dies de pluja a Catalunya.
 
-**Bold** and _Italic_ and `Code` text
+![ICONCHART](assets/images/Icon_chart.jpg)
 
-[Link](url) and ![Image](src)
+### Beeswarm Plot
+
+S'ha utilitzat el Breast Cancer Dataset per representar el temps de supervivència en funció de l’outcome del pacient mitjançant el següent script en R:
+
+```
+data(breast)
+beeswarm(time_survival ~ event_survival, data = breast,
+         method = 'swarm',
+         pch = 16, pwcol = as.numeric(ER),
+         xlab = '', ylab = 'Follow-up time (months)',
+         labels = c('Censored', 'Metastasis'))
+legend('topright', legend = levels(breast$ER),
+       title = 'ER', pch = 16, col = 1:2)
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+El resultat és el següent:
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mtomeca/PAC2viz.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+![beeswarm](assets/images/plot_zoom.png)
