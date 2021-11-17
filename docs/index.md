@@ -10,7 +10,7 @@ Representació feta amb QGIS, en la qual es representen els centres escolars de 
 
 El resultat obtingut és el següent:
 
-![FotoQGIS](assets/images/Foto_QGIS.jpg)
+![FotoQGIS](assets/images/Foto_QGIS.png)
 
 ### Icon Chart
 
