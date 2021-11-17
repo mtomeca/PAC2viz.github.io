@@ -1,14 +1,12 @@
-## Visualització de dades
+## Visualització de dades - PAC 2
 
 A continuació es presenten les visualitzacions de la PAC 2 de l'assignatura de visualització de dades.
 
-You can use the [editor on GitHub](https://github.com/mtomeca/PAC2viz.github.io/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+### Dot Density Map
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Representació feta amb QGIS, en la qual es representen els centres escolars de secundària al territori continental d’Estats Units (llevat d’Alaska).
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+![Image](/docs/assets/images/Edició QGIS.PNG)
 
 ```markdown
 Syntax highlighted code block
